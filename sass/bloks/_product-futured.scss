@@ -1,0 +1,125 @@
+.product__future{
+    padding-bottom: 190px;
+}
+
+.product__future_heading{
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #191D28;  
+    
+}
+
+.product__future--item-top-one{
+    background-image: url(../images/pepper.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+.product__future--item-top-two{
+    background-image: url(../images/cobbage.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+.product__future--item-top-three{
+    background-image: url(../images/redtomato.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+.product__feature-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    &-second{
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/arrow.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+        border: none;
+        border: 1px solid #76a713;
+        background-color: #ffffff;
+        
+        &:hover{
+            background-image: url(../images/whitearrow.png);
+            transform: rotate(0.5turn);
+            background-color: #76a713;
+        }
+    }
+    
+}
+
+.product__item-feature-box-first{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/whitearrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    border: none;
+    margin-right: 15px;
+    background-color: #76a713;
+    
+    &:hover{
+        background-image: url(../images/arrow.png);
+        transform: rotate(0.5turn);
+        border: 1px solid #76a713;
+        background-color: #ffffff;
+    }
+}
+
+.funfact{
+    position: relative;
+    width: 100%;
+    top: 191px;
+    
+    &__list{
+        list-style-type: none;
+        margin: 0 auto;
+        width: 1170px;
+        height: 291px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(../images/bggreen.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #76a713;
+        
+        
+        
+    }
+    &__item-heading{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 150%;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+    }
+    
+    &__item-text{
+        font: {
+            weight:600;
+            size:24px;
+            line-height: 36px;
+        }
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+}

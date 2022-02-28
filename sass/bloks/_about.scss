@@ -1,0 +1,113 @@
+.about{
+    padding-bottom: 98px;
+  }
+  
+  .about__container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+  }
+  
+  .about__img{
+    margin-right: 30px;
+  }
+  
+  .about__box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 25px;
+  }
+  
+  .about__box-heading{
+    margin:0;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    padding: 10px 75px;
+    border: 1.5px dashed rgba(118, 167, 19, 0.5);
+    color: #76A713;  
+  }
+  
+  .about__number{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  
+  .about__box-img{
+    margin-bottom: 27px;
+  }
+  
+  .about__heading{
+    width: 517px;
+    margin: 0;
+    margin-top: -20px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    text-transform: uppercase;
+    color: #191D28;
+  }
+  
+  .about__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888888;
+    margin-top: 35px;
+    margin-bottom: 22px;
+  }
+  
+  .about__content-quote{
+    margin: 0;
+  }
+  
+  .quote__text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    border-left:2px solid #76A713; 
+    padding-left: 20px;
+    margin: 0;
+    color: #AAAAAA;  
+  }
+  
+  .quote__text::after{
+    content: "";
+    background-image: url(../images/quote.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 28px;
+    height: 20px;
+    display: block;
+    margin-left: 372px;
+    margin-top: -2px;
+  }
+  
+  .cite__name{
+    display: block;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;  
+  }
+  
+  .quote__span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color: #AAAAAA;
+  }
+  

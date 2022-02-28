@@ -1,0 +1,107 @@
+.shipping__container{
+    width: 1200px;
+    position: relative;
+    padding-bottom: 160px;
+  }
+  
+  .shipping__list{
+    position: absolute;
+    top: -90px;
+    border: 1.5px solid #dddddd;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .shipping__list--item{
+    padding: 64px 0px 64px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipping__list--item:first-child{
+    padding-left: 15px;
+  }
+  
+  .shipping__list--item:last-child{
+    padding-right: 40px;
+  }
+  
+  .shipping__heading{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  
+  .shipping__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    color: #666666;
+  }
+  
+  .truct::before{
+    content:"";
+    display: block;
+    background-image: url(../images/truck.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .trybox::before{
+    content:"";
+    display: block;
+    background-image: url(../images/trybox.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .handbox::before{
+    content:"";
+    display: block;
+    background-image: url(../images/handbox.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 55px;
+    margin-right: 20px;
+  }
+  
+  .prasentbox::before{
+    content:"";
+    display: block;
+    background-image: url(../images/prasentbox.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .line{
+    display: inline-block;
+    height: 50px;
+    width: 1px;
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: #dddddd;
+  }
+  

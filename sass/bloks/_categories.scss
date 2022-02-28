@@ -1,0 +1,96 @@
+.categories{
+    background-color:#F8F8F8;
+  }
+  
+  .categories__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .categories__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    width: 270px;
+    height: 354px;
+    padding-bottom: 30px;
+    border: 1px solid #76A713;
+  }
+  
+  .categories__item-img{
+    margin-bottom: 5px;
+  }
+  
+  .categories__item-heading{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #000000;
+  }
+  
+  .categories__item-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #888888; 
+  }
+  
+  .categories__item-link{
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 14px;
+    background-size: auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #76A713;
+  }
+  
+  .categories__item:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+  }
+  
+  .categories__item:hover > .categories__item-heading{
+    color: #76A713;
+  }
+  
+  .categories__item-active{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+  }
+  
+  .categories__active-heading{
+    color: #76a713;
+  }
+  
+  .categories__link-active{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 18px;
+    border: 1px solid #76a713 ;
+    color: #FFFFFF;
+    background-color: #76a713;
+  }
+  
+  .categories__link-active:hover{
+    color: #76a713;
+    background-color: #FFFFFF;
+  }
+  
