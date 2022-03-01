@@ -1,0 +1,81 @@
+.subscribe{
+    &__container{
+        width: 1170px;
+        position: relative;
+        height: 250px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(../images/arrows.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 400px  center;
+        background-color: #76A713;
+    }
+    
+    &__heading{
+        font-family: Oswald;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 89px;
+        margin: 0;
+        margin-top: 48px;
+        margin-bottom: 35px;
+        color: #FFFFFF;       
+    }
+
+    &__btn{
+        border: none;
+        background-color: #FF6600;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 10px 12px;  
+        color: #FFFFFF;           
+    }
+
+    &__input{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        border: none;
+        background-color: #76A713; 
+        margin-bottom: 10px;
+        outline: none;
+        color: rgba(255, 255, 255, 0.6); 
+    }
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__line{
+        display: inline-block;
+        width: 370px;
+        height: 1px;
+        background-color:  #9AD523;
+    }
+    
+
+    &__form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 49px;
+    }
+
+    &__content{
+        margin-right: 102px;
+    }
+
+    &__img{
+        position: absolute;
+        left: -70px;
+        bottom: -80px;
+    }
+
+    
+}

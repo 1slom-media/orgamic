@@ -1639,6 +1639,10 @@ body {
   background-color: #76a719;
 }
 
+.lates {
+  margin-bottom: 100px;
+}
+
 .lates__heading {
   font-family: Oswald;
   font-weight: 600;
@@ -1814,5 +1818,102 @@ body {
   background-size: auto;
   background-position-y: center;
   margin-left: 5px;
+}
+
+.subscribe__container {
+  width: 1170px;
+  position: relative;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(../images/arrows.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 400px  center;
+  background-color: #76A713;
+}
+
+.subscribe__heading {
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  margin: 0;
+  margin-top: 48px;
+  margin-bottom: 35px;
+  color: #FFFFFF;
+}
+
+.subscribe__btn {
+  border: none;
+  background-color: #FF6600;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 12px;
+  color: #FFFFFF;
+}
+
+.subscribe__input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  background-color: #76A713;
+  margin-bottom: 10px;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subscribe__line {
+  display: inline-block;
+  width: 370px;
+  height: 1px;
+  background-color: #9AD523;
+}
+
+.subscribe__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 49px;
+}
+
+.subscribe__content {
+  margin-right: 102px;
+}
+
+.subscribe__img {
+  position: absolute;
+  left: -70px;
+  bottom: -80px;
 }
 /*# sourceMappingURL=main.css.map */
